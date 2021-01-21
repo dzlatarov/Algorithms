@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30621.155
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearch", "BinarySearch\BinarySearch.csproj", "{13191CE7-D329-4179-86DD-300784015DF9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinarySearch", "BinarySearch\BinarySearch.csproj", "{13191CE7-D329-4179-86DD-300784015DF9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelectionSort", "SelectionSort\SelectionSort.csproj", "{03520D10-13B4-4891-9B63-D785752E215B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SelectionSort", "SelectionSort\SelectionSort.csproj", "{03520D10-13B4-4891-9B63-D785752E215B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsertionSort", "InsertionSort\InsertionSort.csproj", "{F35D3719-1B11-400E-B332-F5BB7BFA2547}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{03520D10-13B4-4891-9B63-D785752E215B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03520D10-13B4-4891-9B63-D785752E215B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03520D10-13B4-4891-9B63-D785752E215B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F35D3719-1B11-400E-B332-F5BB7BFA2547}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F35D3719-1B11-400E-B332-F5BB7BFA2547}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F35D3719-1B11-400E-B332-F5BB7BFA2547}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F35D3719-1B11-400E-B332-F5BB7BFA2547}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

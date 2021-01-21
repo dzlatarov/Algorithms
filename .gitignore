@@ -8,3 +8,6 @@
 /Algorithms/BinarySearch/bin/Debug/netcoreapp3.1
 /Algorithms/SelectionSort/bin/Debug/netcoreapp3.1
 /Algorithms/SelectionSort/obj
+/Algorithms/InsertionSort/bin/Debug/netcoreapp3.1
+/Algorithms/InsertionSort/obj
+/Algorithms/.vs/Algorithms/DesignTimeBuild
