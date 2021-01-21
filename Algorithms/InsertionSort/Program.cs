@@ -6,26 +6,44 @@ namespace InsertionSort
     {
         public static void Main(string[] args)
         {
-            var array = new int[] { 8, 2, 4, 1, 3 };
-            var sortedArray = Insert(array);
+            var array = new int[] { 50, 3, 15, 6, 0, 11, 13, -1 };
+            var sortedArray = InsertionSort(array);
             Print(sortedArray);
         }
 
-        public static int[] Insert(int[] array)
+        public static int[] InsertionSort(int[] array)
         {
             for (int i = 1; i < array.Length; i++)
             {
+                Insert(array, i - 1, array[i]);
+                //var current = array[i];
+                //var j = i - 1;
+                //while (j >= 0 && array[j] > current)
+                //{
+                //    array[j + 1] = array[j];
+                //    j--;
+                //}
+                //array[j + 1] = current;
+            }           
+            return array;
+        }
+
+        public static void Insert(int[] array, int rightIndex, int value)
+        {
+            for (int i = rightIndex; i >= 0; i--)
+            {
                 var current = array[i];
-                var j = i - 1;
-                while (j >= 0 && array[j] > current)
+                var j = i + 1;
+                while (j >= 0 && array[j] < current)
                 {
-                    array[j + 1] = array[j];
+                    array[j] = current;
                     j--;
                 }
-                array[j + 1] = current;
+                if (array[j] > value)
+                {
+                    array[j] = value;
+                }
             }
-
-            return array;
         }
 
         public static void Print(int[] array)
