@@ -11,3 +11,5 @@
 /Algorithms/InsertionSort/bin/Debug/netcoreapp3.1
 /Algorithms/InsertionSort/obj
 /Algorithms/.vs/Algorithms/DesignTimeBuild
+/Algorithms/RecursiveFactorial/obj
+/Algorithms/RecursiveFactorial/bin/Debug/netcoreapp3.1
