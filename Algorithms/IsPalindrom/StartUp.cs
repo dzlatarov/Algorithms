@@ -6,7 +6,7 @@ namespace IsPalindrom
     {
         public static void Main(string[] args)
         {
-            var word = "rotor";
+            var word = Console.ReadLine();
             var isPolindrom = IsPalindrom(word);
             Console.WriteLine(isPolindrom);
         }
