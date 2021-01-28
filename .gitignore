@@ -13,3 +13,5 @@
 /Algorithms/.vs/Algorithms/DesignTimeBuild
 /Algorithms/RecursiveFactorial/obj
 /Algorithms/RecursiveFactorial/bin/Debug/netcoreapp3.1
+/Algorithms/IsPalindrom/bin/Debug/netcoreapp3.1
+/Algorithms/IsPalindrom/obj
